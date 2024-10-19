@@ -68,11 +68,11 @@ Before we begin, ensure we have the following installed:
 
 #### Get All Comic Books
 GET /api/comic-books
-Query Parameters:
-page: Page number (default: 1)
-limit: Number of items per page (default: 10)
-sort: Sort field and order (e.g., price:desc)
-Any field name can be used as a filter (e.g., authorName=Stan Lee)
+   Query Parameters:
+        page: Page number (default: 1)
+        limit: Number of items per page (default: 10)
+        sort: Sort field and order (e.g., price:desc)
+        Any field name can be used as a filter (e.g., authorName=Stan Lee)
 
 #### Get a Single Comic Book
 GET /api/comic-books/:id
