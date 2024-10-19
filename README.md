@@ -56,15 +56,14 @@ Before we begin, ensure we have the following installed:
 - **POST** `/api/comic-books`
 - Body:
   ```json
-  {
- "bookName": "Spider-Man: No Way Home",
- "authorName": "Preeti Chhibber",
- "yearOfPublication": 2021,
- "price": 19.99,
- "discount": 0,
- "numberOfPages": 112,
- "condition": "new",
- "description": "An exciting junior novel based on the new Spider-Man movie!"
+  { "bookName": "Spider-Man: No Way Home",
+   "authorName": "Preeti Chhibber",
+    "yearOfPublication": 2021,
+    "price": 19.99,
+    "discount": 0,
+   "numberOfPages": 112,
+   "condition": "new",
+  "description": "An exciting junior novel based on the new Spider-Man movie!"
   }
 
 #### Get All Comic Books
