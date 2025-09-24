@@ -33,7 +33,7 @@ Before we begin, ensure we have the following installed:
   PORT=5001
   CONNECTION_STRING=mongodb+srv://your_username: your_password@your_cluster.mongodb.net/your_database
 
-## Running the Application
+## Running Application
 1. Start the server:  npm run dev
 2. The server should now be running on `http://localhost:5001` (or the port you specified in the .env file).
 
